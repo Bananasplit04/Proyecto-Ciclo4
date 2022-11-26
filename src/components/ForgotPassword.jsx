@@ -1,5 +1,5 @@
 import React, { Fragment }  from 'react';
-
+import Fragment from "react-bootstrap/Fragment";
 
 function ForgotPassword(){
     return( 
