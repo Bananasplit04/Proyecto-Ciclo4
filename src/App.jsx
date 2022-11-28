@@ -8,12 +8,8 @@ import {BrowserRouter as router, RouteProps, Route} from 'react-router-dom'
 function App() {
   return (
     <div className='App'>
-      <Router>
-        <Routes>
-          <Route path='/' element={<IndexApp/>}/>
-          <Route path='/Register' element={<Register/>}/>
-        </Routes>
-      </Router>
+      <IndexApp/>
+      {/*<Register/>*/}
       {/*<ForgotPassword/>*/}
       {/*<Login/>*/}
       
