@@ -1,8 +1,11 @@
 import React, {Fragment} from 'react';
+import Register from './components/Register';
 function Index(){
     return( 
         <Fragment>
             <div className="container">
+
+                <Register/>
 
                 <div class="card o-hidden border-0 shadow-lg my-5">
                     <div class="card-body p-0">
