@@ -7,8 +7,8 @@ import IndexApp from './components/indexApp';
 function App() {
   return (
     <div className='App'>
-      {/*<IndexApp/>*/}
-      <Register/>
+      <IndexApp/>
+      {/*<Register/>*/}
       {/*<ForgotPassword/>*/}
       {/*<Login/>*/}
       
