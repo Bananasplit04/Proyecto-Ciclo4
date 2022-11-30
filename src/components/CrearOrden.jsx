@@ -114,7 +114,7 @@ function CrearOrden (){
                         </div>
                     </div>
                     </div>
-                </div>*
+                </div>
             </Fragment>
 
     );

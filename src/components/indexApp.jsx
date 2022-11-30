@@ -283,7 +283,7 @@ function IndexApp(){
                                     <h1 class="h3 mb-0 text-gray-800">Gestión de paquetes</h1>
                                             
                                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCrear" data-whatever="@mdo" onClick={<CrearOrden/>}>Crear orden</button>
-                                        
+                                            
                                 </div>
                                 
 
@@ -463,7 +463,7 @@ function IndexApp(){
                                         <div class="form-group row">
                                             <label for="nombre" class="col-form-label col-sm-4">Fecha:</label>
                                             <div class="col-sm-8">
-                                        <input type="date" name="nombre" id="nombre" class="form-control" placeholder="Nombre" tabindex="1"/>
+                                                <input type="date" name="nombre" id="nombre" class="form-control" placeholder="Nombre" tabindex="1"/>
                                             </div>
                                         </div>
                                     </div>

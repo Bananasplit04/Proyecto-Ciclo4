@@ -1,3 +1,5 @@
+import React from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css'
 import ForgotPassword from './components/ForgotPassword';
 import Login from './components/Login';
@@ -6,15 +8,15 @@ import IndexApp from './components/indexApp';
 
 function App() {
   return (
-    <div className='App'>
-      <IndexApp/>
-      {/*<Register/>*/}
-      {/*<ForgotPassword/>*/}
-      {/*<Login/>*/}
-      
-    </div>
-    
-  )
+    <BrowserRouter>
+       <Routes>
+            <Route path= '/' element={<IndexApp />}/>
+            <Route path= '/login' element={<Login />}/>
+            <Route path= '/Register' element={<Register />}/>
+            <Route path= '/ForgotPassword' element={<ForgotPassword />}/>
+       </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
