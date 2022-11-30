@@ -704,21 +704,21 @@ function IndexApp(){
 
                 {/* Bootstrap core JavaScript*/}
                 
-                <script src="../../public/estilos/js/vendor/jquery/jquery.min.js"></script>
-                <script src="../../public/estilos/js/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                <script src="../public/estilos/vendor/jquery/jquery.min.js"></script>
+                <script src="../public/estilos/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
                 {/* Core plugin JavaScript*/}
-                <script src="../../public/estilos/js/vendor/jquery-easing/jquery.easing.min.js"></script>
+                <script src="../public/estilos/vendor/jquery-easing/jquery.easing.min.js"></script>
 
                 {/* Custom scripts for all pages*/}
-                <script src="../../public/estilos/js/sb-admin-2.min.js"></script>
+                <script src="../public/estilos/js/sb-admin-2.min.js"></script>
 
                 {/* Page level plugins */}
-                <script src="../../public/estilos/js/vendor/datatables/jquery.dataTables.min.js"></script>
-                <script src="../../public/estilos/js/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+                <script src="../public/estilos/vendor/datatables/jquery.dataTables.min.js"></script>
+                <script src="../public/estilos/vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
                 {/* Page level custom scripts */}
-                <script src="../../public/estilos/js/demo/datatables-demo.js"></script>
+                <script src="../public/estilos/js/demo/datatables-demo.js"></script>
 
       </Fragment>
     )
