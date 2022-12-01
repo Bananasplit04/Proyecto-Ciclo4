@@ -5,6 +5,7 @@ import ForgotPassword from './components/ForgotPassword';
 import Login from './components/Login';
 import Register from './components/Register';
 import IndexApp from './components/indexApp';
+import CrearOrden from './components/CrearOrden';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path= '/login' element={<Login />}/>
             <Route path= '/Register' element={<Register />}/>
             <Route path= '/ForgotPassword' element={<ForgotPassword />}/>
+            <Route path= '/Crear' element={<CrearOrden />}/>
        </Routes>
     </BrowserRouter>
   );

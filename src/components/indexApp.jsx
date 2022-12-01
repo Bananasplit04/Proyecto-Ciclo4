@@ -281,9 +281,9 @@ function IndexApp(){
                                 {/* Page Heading */}
                                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
                                     <h1 class="h3 mb-0 text-gray-800">Gestión de paquetes</h1>
-                                            
-                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCrear" data-whatever="@mdo" onClick={<CrearOrden/>}>Crear orden</button>
-                                            
+                                    <a href="/CrearOrden">
+                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCrear" data-whatever="@mdo" >Crear orden</button>
+                                    </a>    
                                 </div>
                                 
 
